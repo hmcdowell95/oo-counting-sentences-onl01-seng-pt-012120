@@ -20,10 +20,7 @@ class String
     c = b.split("?")
     d = c.join("!")
     e = d.split("!")
-    e.collect do |x|
-      if x = ""
-        e.delete("")
-      end
-    end
+    e.delete("")
+    e.count
   end
 end
