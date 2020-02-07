@@ -20,7 +20,6 @@ class String
     c = b.split("?")
     d = c.join("!")
     e = d.split("!")
-    f = e.delete_if {|a| a = ""}
-    f.count
+    e.count
   end
 end
