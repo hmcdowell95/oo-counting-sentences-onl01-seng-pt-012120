@@ -21,7 +21,5 @@ class String
     d = c.join("!")
     e = d.split("!")
     binding.pry
-    e.collect do |x|
-      if x = ""
   end
 end
