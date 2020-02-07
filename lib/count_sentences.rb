@@ -20,6 +20,6 @@ class String
     c = b.split("?")
     d = c.join("!")
     e = d.split("!")
-    binding.pry
+    binding.pr
   end
 end
