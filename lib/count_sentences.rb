@@ -20,6 +20,10 @@ class String
     c = b.split("?")
     d = c.join("!")
     e = d.split("!")
-    binding.pr
+    e.collect do |x|
+      if x = ""
+        e.delete("")
+      end
+    end
   end
 end
