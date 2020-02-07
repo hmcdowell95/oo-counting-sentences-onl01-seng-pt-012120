@@ -20,6 +20,8 @@ class String
     c = b.split("?")
     d = c.join("!")
     e = d.split("!")
-    e.count
+    binding.pry
+    e.collect do |x|
+      if x = ""
   end
 end
